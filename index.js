@@ -9,11 +9,11 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('School Space server is running');
+    res.send('Space School Record server is running');
 });
 
 app.listen(port, () => {
-    console.log('School Space server is listenning, ', port);
+    console.log('Space School server is listenning, ', port);
 });
 
 

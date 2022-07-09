@@ -61,6 +61,7 @@ async function run() {
                     result: updatedStudent.result,
                     score: updatedStudent.score,
                     grade: updatedStudent.grade,
+                    img: updatedStudent.img
                 },
             };
 
